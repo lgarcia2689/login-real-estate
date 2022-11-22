@@ -55,23 +55,23 @@ export const Input = styled.input`
 `;
 
 export const SubmitButton = styled.button`
-  width: 100%;
-  padding: 11px 40%;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 540;
-  border: none;
-  border-radius: 100px 100px 100px 100px;
-  cursor: pointer;
-  transition: all, 240ms ease-in-out;
-  background: rgb(241, 196, 15);
-  background: linear-gradient(
-    58deg,
-    rgba(241, 196, 15, 1) 20%,
-    rgba(243, 172, 18, 1) 100%
-  );
+    width: 100%;
+    padding: 11px 40%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 540;
+    border: none;
+    border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
+    transition: all, 240ms ease-in-out;
+    background: rgb(241, 196, 15);
+    background: linear-gradient(
+      58deg,
+      rgba(241, 196, 15, 1) 20%,
+      rgba(243, 172, 18, 1) 100%
+    );
 
-  &:hover {
-    filter: brightness(1.03);
-  }
+    &:hover {
+      filter: brightness(1.03);
+    }
 `;
